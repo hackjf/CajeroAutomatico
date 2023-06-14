@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .cajero {
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #666;
+  }
+
+  select, input[type="password"] {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  #acciones {
+    margin-top: 20px;
+  }
+
+  #acciones button {
+    margin-right: 10px;
+  }
